@@ -1,0 +1,43 @@
+
+
+
+.cherry_pic{
+    float: center;
+}
+
+.box1{
+    width: auto; 
+    height: auto; 
+}
+
+
+.title{
+    margin-top: -525px;
+    margin-left: 120px;
+    font-size: 800%;
+    z-index: 1;
+    float: center;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+
+.subtitle{
+    color: rgb(150, 12, 12);
+    font-size: 400%;
+    text-align: right;
+    margin-top: 100px;
+    margin-right: 320px;
+    letter-spacing: 10px;
+    z-index: 1;
+    float: right;
+    font-weight: bold;
+}
+
+.grey {
+    width: 600px; 
+    height: 900px; 
+    margin-top: -9000;
+    margin-left: 600px;
+    background-color: rgb(189, 189, 186); 
+    z-index: -1;
+} 
