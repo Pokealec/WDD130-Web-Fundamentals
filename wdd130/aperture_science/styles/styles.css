@@ -1,0 +1,134 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    background-color: #000;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+  }
+  
+  /* Home Section */
+  #home {
+    background-image: 'wdd130\aperture_science\images\aperture_bg.jpg';
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+  }
+  
+  #home h1 {
+    font-size: 40px;
+  }
+  
+  #home p {
+    font-size: 20px;
+  }
+  
+  /* About Section */
+  #about {
+    background-color: #fff;
+    padding: 50px;
+  }
+  
+  #about h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  /* Products Section */
+  #products {
+    background-color: #f5f5f5;
+    padding: 50px;
+  }
+  
+  #products h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  #products ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #products li {
+    margin-bottom: 10px;
+  }
+  
+  /* Contact Section */
+  #contact {
+    background-color: #f5f5f5;
+    padding: 50px;
+  }
+  
+  #contact h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  form textarea {
+    height: 150px;
+  }
+  
+  form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
