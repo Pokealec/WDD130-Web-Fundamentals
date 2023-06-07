@@ -1,0 +1,32 @@
+
+
+
+.image-container{
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr;
+    width: 800px;
+}
+
+.image{
+    float: left;
+}
+
+.button{
+    text-align: center;
+    padding-right: 30%;
+}
+
+.text{
+    padding-left: 30%;
+    width: 450px;
+}
+
+input[type="submit"], button[type="submit"] {
+    text-decoration-color: white;
+    background-color: #f19f34; /* Red background color */
+  }
+
+
+
+
+
