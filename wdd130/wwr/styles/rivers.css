@@ -68,8 +68,13 @@ nav a:hover {
 .Utah, .Arizona {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 20px;
-    margin-bottom: 50px;
+    padding: 60px;
+    background-color: #eccb6f;
+}
+
+.Utah {
+    margin-bottom: 0px;
+    padding-bottom: 10px;
 }
 .Utah img, .Arizona img{
     width: 90%;
@@ -80,6 +85,10 @@ nav a:hover {
     padding: 40px;
 }
 
+.Arizona {
+    margin-top: 0px;
+    padding-bottom: 45px;
+}
 .Arizona img {
     grid-column: 2/3;
     grid-row: 1;
