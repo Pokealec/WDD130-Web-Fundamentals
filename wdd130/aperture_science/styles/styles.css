@@ -24,7 +24,11 @@ body {
     padding: 20px;
     color: #fff;
   }
-  
+
+  nav {
+  display: grid;
+  }
+
   nav ul {
     list-style: none;
     margin: 0;
@@ -38,6 +42,13 @@ body {
   
   nav ul li a {
     color: #fff;
+  }
+
+
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
   }
   
   /* Home Section */
