@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+}
+
+#content {
+    width: 375px;
+    margin: 0 auto;
+    text-align: center;
+    text-emphasis-color: rgb(82, 81, 81);
+    background-color: rgb(255, 255, 255);
+}
+
+#image {
+    width: 100%;
+}
+
+#desc {
+    margin: 50px;
+}
+
+#title {
+    text-emphasis-color: black;
+}
+
+#info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(39, 39, 77);
+    color: white;
+    margin-block-end: 10px;
+}
+
+#info h2,h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+#info h2 {
+    padding-top: 20px;
+}
+#info h6 {
+    padding-bottom: 20px;
+}
