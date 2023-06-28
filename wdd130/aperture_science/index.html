@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" rel="stylesheet" href="styles/da-style.css">
     <title>Aperture Science Laboratories</title>
+    <script>
+        function playAudio(url) {
+            new Audio(url).play();
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -32,7 +37,7 @@
         <a id="valentines-day" a href="https://youtu.be/w5I3VnCHWsU">
             <img class="event" src="images/valentines.png" alt="Valentine's Day will be on Febuary 14th!"></a>
         <a id="bring-daughter-work">
-            <img class="event" src="images/BYDTWD.png" alt="Bring Your Daughter to Work Day will be on Febuary 23rd (which is a great day to get her tested)!"></a>
+            <img class="event" src="images/BYDTWD.png" onclick="playAudio('BYDTWD.mp3')" alt="Bring Your Daughter to Work Day will be on Febuary 23rd (which is a great day to get her tested)!"></a>
         <a id="st-patricks-day">
             <img class="event" src="images/st-patricks.png" alt="St. Patricks Day will be on March 17th!"></a>
     </div>

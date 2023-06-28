@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" rel="stylesheet" href="styles/da-style.css">
     <title>About Aperture Science</title>
+    <script>
+        function playAudio(url) {
+            new Audio(url).play();
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -29,29 +34,31 @@
         </section>
     </div>
     <div class="Founder">
-        <img src="images\Founder_Cave_Johnson.webp" alt="Our Founder, Cave Johnson" />
+        <img src="images\Founder_Cave_Johnson.webp" onclick="playAudio('audio/isnt-about-why.mp3')" alt="Our Founder, Cave Johnson" />
         <div class="Founder-info">
-            <h2>Our Founder</h2>
-            <p><b>"Science isn't about why, it's about why not!"</b><br> - Cave Johnson</p>
+            <h2>Our Beloved Founder</h2>
+            <p><b>"Science isn't about why, it's about why not!"</b><br> - Cave Johnson, 1958</p>
         </div>
     </div>
     <div class="about-section">
-        <img src="images\old_logo.png" alt="Aperture Science Innovators logo" />
+        <img src="images\old_logo.png" onclick="playAudio('audio/science-from-scratch.mp3')" alt="Aperture Science Innovators logo" />
         <div class="about-info">
             <h2>History</h2>
-            <p>Our founder, Cave Johnson, once said: <i>"They say great science is built on the shoulders of giants. Not here. At Aperture, we do all our science from scratch. No hand-holding."</i> </p>
+            <p>Our founder, Cave Johnson, once said: <i>"They say great science is built on the shoulders of giants. Not here. At Aperture, we do all our science from scratch. No hand-holding."</i> (1952)</p>
             
-            <p>Cave built Aperture Science from the ground up, originally as a shower curtain manufacturer for the military named Aperture Fixtures. By 1943 Aperture Fixtures was routinely earning the annual shower curtain salesman award, and in January 1944, Cave invested in a vast, decommissioned salt mine in Michigan, which later became Aperture Science Innovators in 1947. In that same year, Aperture Science Innovators received the Best New Science Company Award, granted to us by the Science and Business Institute of America. </p>
+            <p>Cave built Aperture Science from the ground up, originally as a shower curtain manufacturer for the military named "Aperture Fixtures." By 1943, Aperture Fixtures was routinely earning the annual shower curtain salesman award, and in January 1944, Cave invested in a vast, decommissioned salt mine in Michigan, which later became Aperture Science Innovators in 1947. In that same year, Aperture Science Innovators received the Best New Science Company Award, granted to us by the Science and Business Institute of America. </p>
         </div>
         <div class="about-info2">
-            <p>Aperture Fixtures has evolved over the course of half a century into an experimental physics research institution, which we lovingly call Aperture Science. We have been #2 on the Top 100 Applied Science Companies ranking since 1949, our only rival being Black Mesa. </p>
+            <p>Aperture Fixtures has evolved over the course of half a century into an experimental physics research institution, which we lovingly call Aperture Science. We have been #2 on the Top 100 Applied Science Companies ranking since 1949, our only rival being the heinous Black Mesa. </p>
                 
-            <p>We have a few various locations, but our main facility is the Aperture Science Enrichment Center, located in Upper Michigan. </p>
+            <p>We have a few various locations, but our main facility is the Aperture Science Enrichment Center, located in Upper Michigan. Our testing and research is mostly done underground, starting from that old salt mine and going up! </p>
+
+            <p>We have a special suprise for those attending the annual Bring Your Daughter to Work Day this year, and <i>she</i> can't wait to meet you!</p>
         </div>
     </div>
     <div class="awards">
-        <div class="newspaper"><img src="images\Underground_trophycase_newspaper.png" alt="Cave Johnson Buys Salt Mines" /></div>
-        <div class="top100"></div><img src="images\Underground_trophycase_top100.png" alt="Top 100 Award" /></div>
+        <div class="newspaper"><img src="images\Underground_trophycase_newspaper.png" onclick="playAudio('audio/spheres-science-adventure.wav')" alt="Cave Johnson Buys Salt Mines" /></div>
+        <div class="top100"></div><img src="images\Underground_trophycase_top100.png" onclick="playAudio('audio/ready-for-science.wav')" alt="Top 100 Award" /></div>
     </div>
 </body>
 <footer>
